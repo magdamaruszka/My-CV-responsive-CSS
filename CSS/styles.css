@@ -1,0 +1,208 @@
+body{
+  margin:0px;
+  font-family: p22-underground, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #ff9D76;
+  }
+
+h1{
+  margin-top:180px;
+  margin-bottom: 0px;
+  color: #eb4d55;
+  font-family: termina, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5.625rem;
+  line-height: 90%;
+
+}
+
+h2{
+  text-align: center;
+  color: #eb4d55;
+  padding-top: 20px;
+  font-family: termina, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+  .header {
+  background-color: #F6E1E1;
+    margin: 0px;
+    text-align: center;
+    font-family: p22-underground, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .cloudtop {
+    position: relative;
+    top: 100px;
+    left: 130px;
+  }
+
+.cloudbottom{
+  position: absolute;
+  bottom: 350px;
+}
+
+.mountain{
+  position: relative;
+  top:  6px;
+}
+
+.profile {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.myphoto {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 40px auto;
+  line-height: 150%;
+}
+
+.strawberry {
+  width: 100px;
+  float: left;
+  padding-right: 22px;
+  position: relative;
+  top: 12px;
+}
+
+.talking {
+  width: 100px;
+  float: right;
+  padding-left: 20px;
+  position: relative;
+  top: 12px;
+}
+
+.talkingskill {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #ff9D76;
+  width: 200px;
+
+}
+
+h3 {
+  margin-top:0px;
+  color: #eb4d55;
+  font-family: rift-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.bottom-container{
+  background-color: #333366;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: small;
+}
+
+.footer-link{
+  color: white;
+}
+
+.contact-me {
+  padding-bottom: 40px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #eb4d55 35%, #333366 100%);
+	background-color:#eb4d55;
+	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:p22-underground, sans-serif;
+	font-size:17px;
+	padding:14px 38px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #333366 5%, #eb4d55 100%);
+	background-color:#333366;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.linkedin {
+  width: 50px;
+}
+
+.facebook {
+  width: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.twitter {
+  width: 50px;
+}
+
+@media (max-width: 900px)
+{
+  h1 {
+    color: black;
+}
+
+.mountain{
+  width: 85%;
+  top:  6px;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 40px auto;
+  line-height: 150%;
+  text-align: center;
+}
+
+.strawberry {
+  width: 100px;
+  position: relative;
+  left: 10px;
+  float:none;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.talkingskill {
+  text-align: center;
+}
+
+.talking {
+  width: 100px;
+  position: static;
+  /* right: 50px;
+  bottom: 600px; */
+  float:none;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+}
